@@ -33,3 +33,30 @@ const myfunction =  function (){
 }
 
 console.log(typeof myfunction);
+
+
+// ++++++++++++++++++++++++++++++++++ memory ++++++++++++++++
+// stack(primitive), heap(non primitive);
+
+
+
+let anotherName = " hari"
+let anotherPerson  = anotherName;
+anotherName = "ram"
+console.log(anotherName);
+console.log(anotherPerson);
+
+let userOne = {
+    email: "user@goole.com",
+    up: "user@bl"
+}
+
+
+let userTwo = userOne
+userTwo.email = "kehmraj@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
