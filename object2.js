@@ -72,6 +72,18 @@ console.log(Object.entries(tinderUsers)); // show all key and values in array fo
 
 console.log(tinderUsers.hasOwnProperty("isLoggedIn")); // check the property is available or not . if abailable show true and not show false.
 
+const course = {
+     courseName: " js in nepali",
+     price: "999",
+     courseInstructor: "khemraj saud",
+     
+}
+
+const {courseInstructor : instructure} = course; //
+// console.log(courseInstructor); 
+
+
+console.log(instructure);
 
 
 
